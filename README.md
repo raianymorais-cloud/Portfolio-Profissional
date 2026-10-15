@@ -17,7 +17,7 @@
     </td>
     <td>
       <div>
-        <img src="../imgs/img/LogoR.png" alt="Logo do Projeto" width="120px"/>
+        <img src="imgs/img/Logo.png" alt="Logo do Projeto" width="120px"/>
       </div>
     </td>
   </tr> 
@@ -79,22 +79,21 @@ As seguintes ferramentas, frameworks e bibliotecas foram utilizados na construç
 
 | Tela | Captura de Tela |
 | :---: | :---: |
-| **Página Inicial (Home)** | ![Home](../imgs/img/print-home.png) |
-| **Projetos** | ![Projetos](../imgs/img/print-projetos.png) |
-| **Sobre Mim** | ![Sobre Mim](../imgs/img/print-sobre.png) |
-| **Experiências** | ![Experiência](../imgs/img/print-experiencias.png) |
-| **Contato** | ![Contato](../imgs/img/print-contato.png) |
-
+| **Página Inicial (Home)** | ![Home](imgs/print-telas/print-home.png) |
+| **Projetos** | ![Projetos](imgs/print-telas/print-projetos.png) |
+| **Sobre Mim** | ![Sobre Mim](imgs/print-telas/print-sobre.png) |
+| **Experiências** | ![Experiências](imgs/print-telas/print-experiencias.png) |
+| **Contato** | ![Contato](imgs/print-telas/print-contato.png) |
 
 ### 🌐 Wireframes do Figma
 
 | Tela | Protótipo Figma |
 | :---: | :---: |
-| **Página Inicial (Home)** | ![Home](../imgs/imagens-figma/home-figma.png) |
-| **Projetos** | ![Projetos](../imgs/imagens-figma/projetos-figma.png) |
-| **Sobre Mim** | ![Sobre Mim](../imgs/imagens-figma/sobremim-figma.png) |
-| **Experiências** | ![Experiência](../imgs/imagens-figma/experiencias-figma.png) |
-| **Contato** | ![Contato](../imgs/imagens-figma/contato-figma.png) |
+| **Página Inicial (Home)** | ![Home](imgs/imagens-figma/home-figma.png) |
+| **Projetos** | ![Projetos](imgs/imagens-figma/projetos-figma.png) |
+| **Sobre Mim** | ![Sobre Mim](imgs/imagens-figma/sobremim-figma.png) |
+| **Experiências** | ![Experiências](imgs/imagens-figma/experiencias-figma.png) |
+| **Contato** | ![Contato](imgs/imagens-figma/contato-figma.png) |
 
 ## 🔗 Documentações utilizadas
 
@@ -114,7 +113,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 
 | 👤 Nome | 🖼️ Foto | :octocat: GitHub | 💼 LinkedIn | 📤 Gmail |
 |---------|----------|-----------------|-------------|-----------|
-| Raiany Morais Ribeiro  | <div align="center"><img src="../imgs/img/LogoR.png" width="70px" height="70px"></div> | <div align="center"><a href="https://github.com/raianymorais-cloud/Portfolio-Profissional.git"><img src="https://joaopauloaramuni.github.io/image/github6.png" width="50px" height="50px"></a></div> | <div align="center"><a href="www.linkedin.com/in/raiany-morais-791b542b5"><img src="https://joaopauloaramuni.github.io/image/linkedin2.png" width="50px" height="50px"></a></div> | <div align="center"><a href="mailto:raiany.morais@sga.pucminas.br"><img src="https://joaopauloaramuni.github.io/image/gmail3.png" width="50px" height="50px"></a></div> |
+| Raiany Morais Ribeiro  | <div align="center"><img src="imgs/img/Logo.png" width="70px" height="70px"></div> | <div align="center"><a href="https://github.com/raianymorais-cloud/Portfolio-Profissional.git"><img src="https://joaopauloaramuni.github.io/image/github6.png" width="50px" height="50px"></a></div> | <div align="center"><a href="www.linkedin.com/in/raiany-morais-791b542b5"><img src="https://joaopauloaramuni.github.io/image/linkedin2.png" width="50px" height="50px"></a></div> | <div align="center"><a href="mailto:raiany.morais@sga.pucminas.br"><img src="https://joaopauloaramuni.github.io/image/gmail3.png" width="50px" height="50px"></a></div> |
 
 ## 🏗 Arquitetura
 
