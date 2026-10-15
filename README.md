@@ -23,8 +23,45 @@
   </tr> 
 </table>
 
-## 🚀 Aplicação Publicada- 🌐 **Link do Site Publicado (GitHub Pages):** [Acessar Portfólio Profissional](https://raianymorais-cloud.github.io/Portfolio-Profissional/)- 📂 **Repositório no GitHub:** [Portfolio-Profissional](https://github.com/raianymorais-cloud/Portfolio-Profissional.git) 
+## 🚀 Aplicação Publicada- 🌐 **Link do Site Publicado (GitHub Pages):** [Acessar Portfólio Profissional](https://raianymorais-cloud.github.io/Portfolio-Profissional/templates/index.html)- 📂 **Repositório no GitHub:** [Portfolio-Profissional](https://github.com/raianymorais-cloud/Portfolio-Profissional.git) 
 ---
+
+🖱️ Como Navegar pelo Portfólio (Instruções de Uso)
+O site foi estruturado para ser intuitivo, responsivo e de fácil navegação. Veja como interagir com as principais funcionalidades:
+
+Retornar à Página Inicial (Home):
+
+Logotipo no Cabeçalho: Em qualquer página que você estiver, basta clicar na logo / nome ("Raiany Morais Ribeiro") no canto superior esquerdo para voltar instantaneamente para a página inicial (index.html).
+
+Navegação do Menu Superior:
+
+Utilize a barra de navegação para alternar facilmente entre as seções principais:
+
+Projetos: Exibe a vitrine com a linha do tempo cronológica dos projetos desenvolvidos.
+
+Experiências: Apresenta a trajetória acadêmica na PUC Minas e profissional de forma organizada.
+
+Sobre mim: Contém a apresentação pessoal, habilidades e biografia.
+
+Contato: Abre a página de envio de mensagens e redes sociais.
+
+Explorando os Projetos Detalhados:
+
+Na página de Projetos, clique no título de qualquer card (OnRise, Caminho Novo ou Battler Of Wits) para abrir a página dedicada com as especificações técnicas, funcionalidades e botão direto para o repositório no GitHub.
+
+Em cada página de projeto, há um botão "← VOLTAR PARA PROJETOS" no topo para retornar à lista principal.
+
+Alternador de Idioma (i18n):
+
+Nas páginas Sobre mim e Experiências, utilize os botões [ PT | EN ] no canto superior direito do conteúdo para alternar todo o texto entre Português e Inglês em tempo real.
+
+Envio de Mensagem no Contato:
+
+Na página Contato, preencha o formulário e clique em "Enviar Mensagem". A aplicação valida se os campos estão corretos e envia o e-mail diretamente em segundo plano, sem abrir aplicativos externos.
+
+Voltar ao Topo:
+
+No rodapé de todas as páginas, clique no botão "VOLTAR AO TOPO ↑" para realizar uma rolagem suave até o início da tela.
 
 ## 🚧 Status do Projeto - etapa 3
 
