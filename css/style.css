@@ -739,3 +739,161 @@ body {
         padding: 2rem 1.5rem;
     }
 }
+/* ===================================================
+   ESTILOS PARA O SELETOR DE IDIOMA E TIMELINE (Sprint 02)
+   =================================================== */
+
+/* Seletor de Idioma */
+.lang-switch {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.lang-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-gray);
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-weight: 700;
+    transition: color 0.2s;
+}
+
+.lang-btn:hover, .lang-btn.active-lang {
+    color: var(--accent-lime);
+}
+
+/* Timeline de Projetos */
+.timeline-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.timeline-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.timeline-marker {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.timeline-line {
+    flex: 1;
+    height: 1px;
+    background-color: var(--border-dark);
+}
+
+@media (max-width: 1024px) {
+    .timeline-container {
+        grid-template-columns: 1fr;
+    }
+    .timeline-line {
+        display: none;
+    }
+}
+.hover-green {
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.hover-green:hover {
+    color: var(--accent-lime) !important;
+}
+/* ===================================================
+   REGRAS DE RESPONSIVIDADE (MOBILE & TABLET)
+   =================================================== */
+
+/* Ajustes para Tablets e Telemóveis (ecrãs até 1024px) */
+@media (max-width: 1024px) {
+    .main-container {
+        padding: 1.5rem;
+    }
+
+    /* Transforma a grelha de Sobre Mim / Experiências / Projetos numa única coluna */
+    .about-grid {
+        grid-template-columns: 1fr !important;
+        gap: 2rem;
+    }
+
+    /* Linha do tempo dos projetos passa para 1 coluna */
+    .timeline-container {
+        grid-template-columns: 1fr !important;
+    }
+
+    .timeline-line {
+        display: none !important;
+    }
+
+    .banner-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    /* Cabeçalho e Menu de Navegação */
+    .header-container {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+
+    .nav-menu {
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 0.75rem;
+    }
+
+    .nav-link, .nav-btn-contact {
+        font-size: 0.85rem;
+    }
+
+    /* Títulos e Tipografia */
+    .page-title {
+        font-size: 2rem !important;
+        line-height: 1.2;
+    }
+
+    .banner-title {
+        font-size: 2.2rem !important;
+    }
+
+    /* Formulário de Contato empilhado */
+    .form-row {
+        flex-direction: column !important;
+        gap: 1rem;
+    }
+
+    .form-input-lime, .btn-submit-black {
+        width: 100% !important;
+    }
+
+    /* Rodapé */
+    .footer-top-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+
+    .footer-social-links {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .footer-bottom-row {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+}

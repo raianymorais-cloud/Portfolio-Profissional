@@ -52,22 +52,33 @@
 
             <!-- Coluna da Direita: Conteúdo de Experiências -->
             <div class="about-right">
-                <h1 class="page-title">Experiências</h1>
+                <div class="page-top-bar" style="display: flex; justify-content: space-between; align-items: center;">
+                    <span class="mono-tag text-green" data-i18n="exp_tag">05 / TRAJETÓRIA & VIVÊNCIA</span>
+                    
+                    <!-- Seletor de Idioma PT / EN -->
+                    <div class="lang-switch">
+                        <button id="btn-lang-pt" class="lang-btn active-lang">PT</button>
+                        <span class="text-muted">|</span>
+                        <button id="btn-lang-en" class="lang-btn">EN</button>
+                    </div>
+                </div>
+
+                <h1 class="page-title" data-i18n="exp_title">Experiências</h1>
 
                 <div class="about-text-content">
-                    <p class="text-white font-semibold">
+                    <p class="text-white font-semibold" data-i18n="exp_p1">
                         Minha trajetória reúne formação acadêmica, experiência profissional e desenvolvimento de projetos próprios.
                     </p>
-                    <p>
+                    <p data-i18n="exp_p2">
                         Atualmente, curso Engenharia de Software na PUC Minas, onde desenvolvo conhecimentos em programação, lógica computacional e construção de sistemas. A graduação tem ampliado minha compreensão sobre as etapas envolvidas no desenvolvimento de soluções tecnológicas.
                     </p>
-                    <p>
+                    <p data-i18n="exp_p3">
                         Também possuo dois anos de experiência profissional com carteira assinada, uma vivência que complementa minha formação acadêmica e faz parte da minha trajetória no mercado de trabalho.
                     </p>
-                    <p>
+                    <p data-i18n="exp_p4">
                         Paralelamente aos estudos, venho colocando meus conhecimentos em prática por meio de projetos como o Battle of Wits (BOW), uma plataforma de jogos com foco em xadrez; um site de vinhos e produtos gourmet; e o OnRise, uma proposta de aprendizado interativo sobre educação financeira.
                     </p>
-                    <p>
+                    <p data-i18n="exp_p5">
                         Essas experiências representam etapas importantes do meu desenvolvimento, permitindo conectar teoria e prática, experimentar ideias e ampliar meus conhecimentos sobre a criação de produtos digitais.
                     </p>
                 </div>
@@ -83,5 +94,6 @@
         </div>
     </main>
 
+    <script src="../js/main.js"></script>
 </body>
 </html>

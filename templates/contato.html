@@ -38,13 +38,11 @@
     <section class="contact-hero-banner">
         <div class="banner-container">
             
-            <!-- Barra Superior do Banner -->
             <div class="banner-top-bar">
                 <span class="mono-tag text-black">09 / PRÓXIMA CONEXÃO</span>
                 <span class="mono-tag text-black font-medium">UMA BOA IDEIA COMEÇA COM UM OLÁ.</span>
             </div>
 
-            <!-- Título e Flecha -->
             <div class="banner-content">
                 <div class="banner-text-left">
                     <h1 class="banner-title">Vamos criar<br>o próximo agora?</h1>
@@ -53,39 +51,42 @@
                     </a>
                 </div>
                 <div class="banner-arrow-right">
-                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                        <line x1="7" y1="17" x2="17" y2="7"></line>
-                        <polyline points="7 7 17 7 17 17"></polyline>
-                    </svg>
+                    <i class="fa-solid fa-arrow-up-right-dots" style="font-size: 3rem;"></i>
                 </div>
             </div>
 
-            <!-- FORMULÁRIO DE CONTATO INTEGADO -->
-            <form id="contact-form" class="banner-form">
+            <!-- FORMULÁRIO COM VALIDAÇÃO E ENVIO DE E-MAIL -->
+            <form id="contact-form" class="banner-form" novalidate>
                 <div class="form-row">
-                    <input type="text" name="name" placeholder="Seu Nome" required class="form-input-lime">
-                    <input type="email" name="email" placeholder="Seu E-mail" required class="form-input-lime">
+                    <input type="text" name="name" id="form-name" placeholder="Seu Nome *" required class="form-input-lime">
+                    <input type="email" name="email" id="form-email" placeholder="Seu E-mail *" required class="form-input-lime">
                 </div>
                 <div class="form-row">
-                    <textarea name="message" rows="3" placeholder="Sua Mensagem..." required class="form-input-lime"></textarea>
+                    <textarea name="message" id="form-message" rows="4" placeholder="Sua Mensagem... *" required class="form-input-lime"></textarea>
                 </div>
                 <button type="submit" class="btn-submit-black">
-                    Enviar Mensagem <i class="fa-solid fa-arrow-right"></i>
+                    Enviar Mensagem <i class="fa-solid fa-paper-plane"></i>
                 </button>
             </form>
 
         </div>
     </section>
 
-    <!-- RODAPÉ INFERIOR PRETO -->
+    <!-- RODAPÉ ESCURO COM ÍCONES E LINKS -->
     <footer class="contact-footer">
         <div class="footer-container">
             <div class="footer-top-row">
                 <h2 class="footer-brand-name">Raiany MR</h2>
                 <div class="footer-social-links">
-                    <a href="www.linkedin.com/in/raiany-morais-791b542b5" target="_blank" class="footer-link">LinkedIn ↗</a>
-                    <a href="https://github.com/RaianyMR" target="_blank" class="footer-link">GitHub ↗</a>
-                    <a href="mailto:raiany.morais@sga.pucminas.br" class="footer-link">Gmail ↗</a>
+                    <a href="https://www.linkedin.com/in/raiany-morais-791b542b5" target="_blank" class="footer-link">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn ↗
+                    </a>
+                    <a href="https://github.com/raianymorais-cloud/Portfolio-Profissional.git" target="_blank" class="footer-link">
+                        <i class="fa-brands fa-github"></i> GitHub ↗
+                    </a>
+                    <a href="mailto:raiany.morais@sga.pucminas.br" class="footer-link">
+                        <i class="fa-solid fa-envelope"></i> Gmail ↗
+                    </a>
                 </div>
             </div>
 
@@ -93,7 +94,9 @@
 
             <div class="footer-bottom-row">
                 <span class="mono-caption text-muted">© 2026 RaianyMR / PORTFÓLIO</span>
-                
+                <button id="scroll-to-top-btn" class="top-scroll-btn">
+                    VOLTAR AO TOPO ↑
+                </button>
             </div>
         </div>
     </footer>
