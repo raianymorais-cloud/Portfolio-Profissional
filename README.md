@@ -109,9 +109,9 @@ As seguintes ferramentas, frameworks e bibliotecas foram utilizados na construç
 
 | Tela | Captura de Tela |
 | :---: | :---: |
-| **Página Inicial (Home)** | ![Home](imgs/caminho-novo-img/Captura%20de%20tela%202026-08-16%20210150.png) |
-| **Pagina Inicial 1** | ![Projetos](imgs/caminho-novo-img/Captura%20de%20tela%202026-08-16%20210251.png.png) |
-| **Pagina Inicial 2** | ![Sobre Mim](imgs/caminho-novo-img/Captura%20de%20tela%202026-08-16%20210327.pngpg3.png) |
+| **Página Inicial (Home)** | ![Home](imgs/caminho-novo-img/pg1.png) |
+| **Pagina Inicial 1** | ![Projetos](imgs/caminho-novo-img/pg2.png) |
+| **Pagina Inicial 2** | ![Sobre Mim](imgs/caminho-novo-img/pg3.png) |
 ## 🔗 Documentações utilizadas
 
 ### 🌐 Imagens das telas B0W
