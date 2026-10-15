@@ -23,9 +23,10 @@
   </tr> 
 </table>
 
+## 🚀 Aplicação Publicada- 🌐 **Link do Site Publicado (GitHub Pages):** [Acessar Portfólio Profissional](https://raianymorais-cloud.github.io/Portfolio-Profissional/)- 📂 **Repositório no GitHub:** [Portfolio-Profissional](https://github.com/raianymorais-cloud/Portfolio-Profissional.git) 
 ---
 
-## 🚧 Status do Projeto - etapa 2
+## 🚧 Status do Projeto - etapa 3
 
 ## 📝 Sobre o Projeto
 Este projeto tem como objetivo desenvolver um portfólio profissional para apresentar minha trajetória acadêmica, experiências profissionais, habilidades e projetos desenvolvidos na área de tecnologia.
@@ -95,7 +96,31 @@ As seguintes ferramentas, frameworks e bibliotecas foram utilizados na construç
 | **Experiências** | ![Experiências](imgs/imagens-figma/experiencias-figma.png) |
 | **Contato** | ![Contato](imgs/imagens-figma/contato-figma.png) |
 
+### 🌐 Imagens das telas OnRise
+
+| Tela | Captura de Tela |
+| :---: | :---: |
+| **Página Inicial (Home)** | ![Home](imgs/imagens-OnRise/pg1.png) |
+| **Noticia interna 1** | ![Projetos](imgs/imagens-OnRise/pg2.png) |
+| **Noticia interna 2** | ![Sobre Mim](imgs/imagens-OnRise/pg3.png) |
+
+
+### 🌐 Imagens das telas Caminho-Novo
+
+| Tela | Captura de Tela |
+| :---: | :---: |
+| **Página Inicial (Home)** | ![Home](imgs/caminho-novo-img/Captura%20de%20tela%202026-08-16%20210150.png) |
+| **Pagina Inicial 1** | ![Projetos](imgs/caminho-novo-img/Captura%20de%20tela%202026-08-16%20210251.png.png) |
+| **Pagina Inicial 2** | ![Sobre Mim](imgs/caminho-novo-img/Captura%20de%20tela%202026-08-16%20210327.pngpg3.png) |
 ## 🔗 Documentações utilizadas
+
+### 🌐 Imagens das telas B0W
+
+| Tela | Captura de Tela |
+| :---: | :---: |
+| **Página Inicial (Home)** | ![Home](imgs/B0Wimg/Captura%20de%20tela%202026-08-02%20154547.png) |
+| **Escolha seu lado** | ![Projetos](imgs/B0Wimg/escolha%20seu%20lado.png) |
+| **Jogue contra IA** | ![Sobre Mim](imgs/B0Wimg/vitoria%20da%20IA.png) |
 
 Liste aqui links para documentação técnica, referências de bibliotecas complexas ou guias de estilo que foram cruciais para o projeto.
 
